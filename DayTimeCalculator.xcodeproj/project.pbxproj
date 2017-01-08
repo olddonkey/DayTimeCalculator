@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A26D364E1E2217B3001ABD65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26D364D1E2217B3001ABD65 /* AppDelegate.swift */; };
+		A26D36501E2217B3001ABD65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26D364F1E2217B3001ABD65 /* ViewController.swift */; };
+		A26D36531E2217B3001ABD65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26D36511E2217B3001ABD65 /* Main.storyboard */; };
+		A26D36551E2217B3001ABD65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26D36541E2217B3001ABD65 /* Assets.xcassets */; };
+		A26D36581E2217B3001ABD65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26D36561E2217B3001ABD65 /* LaunchScreen.storyboard */; };
+		A26D36631E2217B3001ABD65 /* DayTimeCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26D36621E2217B3001ABD65 /* DayTimeCalculatorTests.swift */; };
+		A26D366E1E2217B3001ABD65 /* DayTimeCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26D366D1E2217B3001ABD65 /* DayTimeCalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A26D365F1E2217B3001ABD65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A26D36421E2217B3001ABD65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A26D36491E2217B3001ABD65;
+			remoteInfo = DayTimeCalculator;
+		};
+		A26D366A1E2217B3001ABD65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A26D36421E2217B3001ABD65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A26D36491E2217B3001ABD65;
+			remoteInfo = DayTimeCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A26D364A1E2217B3001ABD65 /* DayTimeCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayTimeCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26D364D1E2217B3001ABD65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A26D364F1E2217B3001ABD65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A26D36521E2217B3001ABD65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A26D36541E2217B3001ABD65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A26D36571E2217B3001ABD65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A26D36591E2217B3001ABD65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A26D365E1E2217B3001ABD65 /* DayTimeCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayTimeCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26D36621E2217B3001ABD65 /* DayTimeCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTimeCalculatorTests.swift; sourceTree = "<group>"; };
+		A26D36641E2217B3001ABD65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A26D36691E2217B3001ABD65 /* DayTimeCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayTimeCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26D366D1E2217B3001ABD65 /* DayTimeCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTimeCalculatorUITests.swift; sourceTree = "<group>"; };
+		A26D366F1E2217B3001ABD65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A26D36471E2217B3001ABD65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26D365B1E2217B3001ABD65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26D36661E2217B3001ABD65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A26D36411E2217B3001ABD65 = {
+			isa = PBXGroup;
+			children = (
+				A26D364C1E2217B3001ABD65 /* DayTimeCalculator */,
+				A26D36611E2217B3001ABD65 /* DayTimeCalculatorTests */,
+				A26D366C1E2217B3001ABD65 /* DayTimeCalculatorUITests */,
+				A26D364B1E2217B3001ABD65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A26D364B1E2217B3001ABD65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A26D364A1E2217B3001ABD65 /* DayTimeCalculator.app */,
+				A26D365E1E2217B3001ABD65 /* DayTimeCalculatorTests.xctest */,
+				A26D36691E2217B3001ABD65 /* DayTimeCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A26D364C1E2217B3001ABD65 /* DayTimeCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				A26D364D1E2217B3001ABD65 /* AppDelegate.swift */,
+				A26D364F1E2217B3001ABD65 /* ViewController.swift */,
+				A26D36511E2217B3001ABD65 /* Main.storyboard */,
+				A26D36541E2217B3001ABD65 /* Assets.xcassets */,
+				A26D36561E2217B3001ABD65 /* LaunchScreen.storyboard */,
+				A26D36591E2217B3001ABD65 /* Info.plist */,
+			);
+			path = DayTimeCalculator;
+			sourceTree = "<group>";
+		};
+		A26D36611E2217B3001ABD65 /* DayTimeCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A26D36621E2217B3001ABD65 /* DayTimeCalculatorTests.swift */,
+				A26D36641E2217B3001ABD65 /* Info.plist */,
+			);
+			path = DayTimeCalculatorTests;
+			sourceTree = "<group>";
+		};
+		A26D366C1E2217B3001ABD65 /* DayTimeCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A26D366D1E2217B3001ABD65 /* DayTimeCalculatorUITests.swift */,
+				A26D366F1E2217B3001ABD65 /* Info.plist */,
+			);
+			path = DayTimeCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A26D36491E2217B3001ABD65 /* DayTimeCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A26D36721E2217B3001ABD65 /* Build configuration list for PBXNativeTarget "DayTimeCalculator" */;
+			buildPhases = (
+				A26D36461E2217B3001ABD65 /* Sources */,
+				A26D36471E2217B3001ABD65 /* Frameworks */,
+				A26D36481E2217B3001ABD65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DayTimeCalculator;
+			productName = DayTimeCalculator;
+			productReference = A26D364A1E2217B3001ABD65 /* DayTimeCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A26D365D1E2217B3001ABD65 /* DayTimeCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A26D36751E2217B3001ABD65 /* Build configuration list for PBXNativeTarget "DayTimeCalculatorTests" */;
+			buildPhases = (
+				A26D365A1E2217B3001ABD65 /* Sources */,
+				A26D365B1E2217B3001ABD65 /* Frameworks */,
+				A26D365C1E2217B3001ABD65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A26D36601E2217B3001ABD65 /* PBXTargetDependency */,
+			);
+			name = DayTimeCalculatorTests;
+			productName = DayTimeCalculatorTests;
+			productReference = A26D365E1E2217B3001ABD65 /* DayTimeCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A26D36681E2217B3001ABD65 /* DayTimeCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A26D36781E2217B3001ABD65 /* Build configuration list for PBXNativeTarget "DayTimeCalculatorUITests" */;
+			buildPhases = (
+				A26D36651E2217B3001ABD65 /* Sources */,
+				A26D36661E2217B3001ABD65 /* Frameworks */,
+				A26D36671E2217B3001ABD65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A26D366B1E2217B3001ABD65 /* PBXTargetDependency */,
+			);
+			name = DayTimeCalculatorUITests;
+			productName = DayTimeCalculatorUITests;
+			productReference = A26D36691E2217B3001ABD65 /* DayTimeCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A26D36421E2217B3001ABD65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = olddonkey;
+				TargetAttributes = {
+					A26D36491E2217B3001ABD65 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KACMQNFS8H;
+						ProvisioningStyle = Automatic;
+					};
+					A26D365D1E2217B3001ABD65 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KACMQNFS8H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A26D36491E2217B3001ABD65;
+					};
+					A26D36681E2217B3001ABD65 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KACMQNFS8H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A26D36491E2217B3001ABD65;
+					};
+				};
+			};
+			buildConfigurationList = A26D36451E2217B3001ABD65 /* Build configuration list for PBXProject "DayTimeCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A26D36411E2217B3001ABD65;
+			productRefGroup = A26D364B1E2217B3001ABD65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A26D36491E2217B3001ABD65 /* DayTimeCalculator */,
+				A26D365D1E2217B3001ABD65 /* DayTimeCalculatorTests */,
+				A26D36681E2217B3001ABD65 /* DayTimeCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A26D36481E2217B3001ABD65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26D36581E2217B3001ABD65 /* LaunchScreen.storyboard in Resources */,
+				A26D36551E2217B3001ABD65 /* Assets.xcassets in Resources */,
+				A26D36531E2217B3001ABD65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26D365C1E2217B3001ABD65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26D36671E2217B3001ABD65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A26D36461E2217B3001ABD65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26D36501E2217B3001ABD65 /* ViewController.swift in Sources */,
+				A26D364E1E2217B3001ABD65 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26D365A1E2217B3001ABD65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26D36631E2217B3001ABD65 /* DayTimeCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26D36651E2217B3001ABD65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26D366E1E2217B3001ABD65 /* DayTimeCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A26D36601E2217B3001ABD65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A26D36491E2217B3001ABD65 /* DayTimeCalculator */;
+			targetProxy = A26D365F1E2217B3001ABD65 /* PBXContainerItemProxy */;
+		};
+		A26D366B1E2217B3001ABD65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A26D36491E2217B3001ABD65 /* DayTimeCalculator */;
+			targetProxy = A26D366A1E2217B3001ABD65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A26D36511E2217B3001ABD65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A26D36521E2217B3001ABD65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A26D36561E2217B3001ABD65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A26D36571E2217B3001ABD65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A26D36701E2217B3001ABD65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A26D36711E2217B3001ABD65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A26D36731E2217B3001ABD65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KACMQNFS8H;
+				INFOPLIST_FILE = DayTimeCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.olddonkey.DayTimeCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A26D36741E2217B3001ABD65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KACMQNFS8H;
+				INFOPLIST_FILE = DayTimeCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.olddonkey.DayTimeCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A26D36761E2217B3001ABD65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KACMQNFS8H;
+				INFOPLIST_FILE = DayTimeCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.olddonkey.DayTimeCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayTimeCalculator.app/DayTimeCalculator";
+			};
+			name = Debug;
+		};
+		A26D36771E2217B3001ABD65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KACMQNFS8H;
+				INFOPLIST_FILE = DayTimeCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.olddonkey.DayTimeCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayTimeCalculator.app/DayTimeCalculator";
+			};
+			name = Release;
+		};
+		A26D36791E2217B3001ABD65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = KACMQNFS8H;
+				INFOPLIST_FILE = DayTimeCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.olddonkey.DayTimeCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DayTimeCalculator;
+			};
+			name = Debug;
+		};
+		A26D367A1E2217B3001ABD65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = KACMQNFS8H;
+				INFOPLIST_FILE = DayTimeCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.olddonkey.DayTimeCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DayTimeCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A26D36451E2217B3001ABD65 /* Build configuration list for PBXProject "DayTimeCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26D36701E2217B3001ABD65 /* Debug */,
+				A26D36711E2217B3001ABD65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A26D36721E2217B3001ABD65 /* Build configuration list for PBXNativeTarget "DayTimeCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26D36731E2217B3001ABD65 /* Debug */,
+				A26D36741E2217B3001ABD65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A26D36751E2217B3001ABD65 /* Build configuration list for PBXNativeTarget "DayTimeCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26D36761E2217B3001ABD65 /* Debug */,
+				A26D36771E2217B3001ABD65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A26D36781E2217B3001ABD65 /* Build configuration list for PBXNativeTarget "DayTimeCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26D36791E2217B3001ABD65 /* Debug */,
+				A26D367A1E2217B3001ABD65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A26D36421E2217B3001ABD65 /* Project object */;
+}
