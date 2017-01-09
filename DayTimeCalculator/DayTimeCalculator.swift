@@ -15,7 +15,17 @@ enum dayTimeType {
 
 class DayTimeCalculator: NSObject {
     
+    
+    /// Provide latitude and longitude to get today's sunset and sunrise time
+    ///
+    /// - Parameters:
+    ///   - lat: The latitude you want to calcuate
+    ///   - lng: The longitude you want to calcuate
+    ///   - timeType: dayTimeType.sunRise or dayTimeType.sunSet
+    /// - Returns: Date(optional)
     public class func getSunRiseSetTime(lat: Double, lng: Double, timeType: dayTimeType) -> Date?{
+        
+        assert((lat < -90 || lat > 90 || lng > 180 || lng < -180), "Input latitude or longtitude not correct")
         
         let lat = angleToRadians(angle: lat)
         var dayCount: Double = 0
