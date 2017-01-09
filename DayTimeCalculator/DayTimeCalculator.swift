@@ -25,7 +25,7 @@ class DayTimeCalculator: NSObject {
     /// - Returns: Date(optional)
     public class func getSunRiseSetTime(lat: Double, lng: Double, timeType: dayTimeType) -> Date?{
         
-        assert((lat < -90 || lat > 90 || lng > 180 || lng < -180), "Input latitude or longtitude not correct")
+        assert(((lat > -90 && lat < 90) || (lng < 180 && lng > -180)), "Input latitude or longtitude not correct")
         
         let lat = angleToRadians(angle: lat)
         var dayCount: Double = 0
