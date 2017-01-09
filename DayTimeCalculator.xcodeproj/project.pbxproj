@@ -14,6 +14,7 @@
 		A26D36581E2217B3001ABD65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26D36561E2217B3001ABD65 /* LaunchScreen.storyboard */; };
 		A26D36631E2217B3001ABD65 /* DayTimeCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26D36621E2217B3001ABD65 /* DayTimeCalculatorTests.swift */; };
 		A26D366E1E2217B3001ABD65 /* DayTimeCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26D366D1E2217B3001ABD65 /* DayTimeCalculatorUITests.swift */; };
+		A26D367C1E2217D9001ABD65 /* DayTimeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26D367B1E2217D9001ABD65 /* DayTimeCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A26D36691E2217B3001ABD65 /* DayTimeCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayTimeCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26D366D1E2217B3001ABD65 /* DayTimeCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTimeCalculatorUITests.swift; sourceTree = "<group>"; };
 		A26D366F1E2217B3001ABD65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A26D367B1E2217D9001ABD65 /* DayTimeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayTimeCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				A26D36541E2217B3001ABD65 /* Assets.xcassets */,
 				A26D36561E2217B3001ABD65 /* LaunchScreen.storyboard */,
 				A26D36591E2217B3001ABD65 /* Info.plist */,
+				A26D367B1E2217D9001ABD65 /* DayTimeCalculator.swift */,
 			);
 			path = DayTimeCalculator;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A26D367C1E2217D9001ABD65 /* DayTimeCalculator.swift in Sources */,
 				A26D36501E2217B3001ABD65 /* ViewController.swift in Sources */,
 				A26D364E1E2217B3001ABD65 /* AppDelegate.swift in Sources */,
 			);
