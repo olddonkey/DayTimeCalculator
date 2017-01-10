@@ -14,7 +14,7 @@
 		A26D36581E2217B3001ABD65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26D36561E2217B3001ABD65 /* LaunchScreen.storyboard */; };
 		A26D36631E2217B3001ABD65 /* DayTimeCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26D36621E2217B3001ABD65 /* DayTimeCalculatorTests.swift */; };
 		A26D366E1E2217B3001ABD65 /* DayTimeCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26D366D1E2217B3001ABD65 /* DayTimeCalculatorUITests.swift */; };
-		A26D367C1E2217D9001ABD65 /* DayTimeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26D367B1E2217D9001ABD65 /* DayTimeCalculator.swift */; };
+		A26D36811E248BA0001ABD65 /* DayTimeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26D36801E248BA0001ABD65 /* DayTimeCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		A26D36691E2217B3001ABD65 /* DayTimeCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayTimeCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26D366D1E2217B3001ABD65 /* DayTimeCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTimeCalculatorUITests.swift; sourceTree = "<group>"; };
 		A26D366F1E2217B3001ABD65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A26D367B1E2217D9001ABD65 /* DayTimeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayTimeCalculator.swift; sourceTree = "<group>"; };
+		A26D36801E248BA0001ABD65 /* DayTimeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DayTimeCalculator.swift; path = Source/DayTimeCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +99,13 @@
 		A26D364C1E2217B3001ABD65 /* DayTimeCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				A26D367D1E248B6C001ABD65 /* Source */,
 				A26D364D1E2217B3001ABD65 /* AppDelegate.swift */,
 				A26D364F1E2217B3001ABD65 /* ViewController.swift */,
 				A26D36511E2217B3001ABD65 /* Main.storyboard */,
 				A26D36541E2217B3001ABD65 /* Assets.xcassets */,
 				A26D36561E2217B3001ABD65 /* LaunchScreen.storyboard */,
 				A26D36591E2217B3001ABD65 /* Info.plist */,
-				A26D367B1E2217D9001ABD65 /* DayTimeCalculator.swift */,
 			);
 			path = DayTimeCalculator;
 			sourceTree = "<group>";
@@ -126,6 +126,14 @@
 				A26D366F1E2217B3001ABD65 /* Info.plist */,
 			);
 			path = DayTimeCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		A26D367D1E248B6C001ABD65 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A26D36801E248BA0001ABD65 /* DayTimeCalculator.swift */,
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A26D367C1E2217D9001ABD65 /* DayTimeCalculator.swift in Sources */,
+				A26D36811E248BA0001ABD65 /* DayTimeCalculator.swift in Sources */,
 				A26D36501E2217B3001ABD65 /* ViewController.swift in Sources */,
 				A26D364E1E2217B3001ABD65 /* AppDelegate.swift in Sources */,
 			);
