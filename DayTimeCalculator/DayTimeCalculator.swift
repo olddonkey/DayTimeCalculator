@@ -23,7 +23,7 @@ class DayTimeCalculator: NSObject {
     ///   - lng: The longitude you want to calcuate
     ///   - timeType: dayTimeType.sunRise or dayTimeType.sunSet
     /// - Returns: Date(optional)
-    public class func getSunRiseSetTime(lat: Double, lng: Double, timeType: dayTimeType) -> Date?{
+    public class func getSunRiseSetTime(date: Date, lat: Double, lng: Double, timeType: dayTimeType) -> Date?{
         
         assert(((lat > -90 && lat < 90) || (lng < 180 && lng > -180)), "Input latitude or longtitude not correct")
         
@@ -33,7 +33,7 @@ class DayTimeCalculator: NSObject {
         //Get the days count from 2000-01-01 to today
         let shortDateFormatter = DateFormatter()
         shortDateFormatter.dateFormat = "yyyy-MM-dd"
-        let currentTime = shortDateFormatter.date(from: shortDateFormatter.string(from: Date()))
+        let currentTime = shortDateFormatter.date(from: shortDateFormatter.string(from: date))
         let startTime = shortDateFormatter.date(from: "2000-01-01")
         
         if let currentTime = currentTime, let startTime = startTime{
@@ -78,9 +78,9 @@ class DayTimeCalculator: NSObject {
         
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd HH:mm"
-        let date = dateFormatter.date(from: "\(shortDateFormatter.string(from: Date())) \(hour):\(min)")
+        let time = dateFormatter.date(from: "\(shortDateFormatter.string(from: date)) \(hour):\(min)")
         
-        return date
+        return time
     }
 }
 
