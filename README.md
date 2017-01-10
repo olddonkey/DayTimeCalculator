@@ -57,4 +57,6 @@ Follow and contact me through [email](olddonkeyblog@gmail.com). If you find an i
 
 DayTimeCalculator is released under the MIT license. See LICENSE for details.
 
+### Kudos
 
+Thanks to @junlincao for his algorithm in Java
