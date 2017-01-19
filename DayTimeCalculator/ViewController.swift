@@ -13,8 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let date = DayTimeCalculator.getSunRiseSetTime(date: Date(), lat: 30.328, lng: -97.729, timeType: .sunRise)
-        print(date!)
+        let date = DayTimeCalculator.getSunRiseSunSetTimeUseSystemTimeZone(date: Date(), lat: 47.625668, lng: -122.341470, timeType: .sunSet)//Seattle time and GPS location
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        let dateString = dateFormatter.string(from: date!)
+        print(dateString)
     }
 
     override func didReceiveMemoryWarning() {

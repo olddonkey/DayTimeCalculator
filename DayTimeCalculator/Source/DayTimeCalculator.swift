@@ -15,6 +15,20 @@ enum dayTimeType {
 
 class DayTimeCalculator: NSObject {
     
+    /// Provide latitude and longitude to get today's sunset and sunrise time, the sun set and sun rise time is based on current system time zone
+    ///
+    /// - Parameters:
+    ///   - date: current date
+    ///   - lat: latitude you want to calcuate
+    ///   - lng: longitude you want to calcuate
+    ///   - timeType: sun set or sun rise
+    /// - Returns: optional Date
+    public class func getSunRiseSunSetTimeUseSystemTimeZone(date: Date, lat: Double, lng: Double, timeType: dayTimeType) -> Date?{
+        var zone: Int = 0
+        let secondsFromGMT = TimeZone.current.secondsFromGMT()
+        zone = secondsFromGMT/3600
+        return DayTimeCalculator.getSunRiseSunSetTime(date: date, lat: lat, lng: lng, timeType: timeType, timeZone: zone)
+    }
     
     /// Provide latitude and longitude to get today's sunset and sunrise time
     ///
@@ -23,7 +37,7 @@ class DayTimeCalculator: NSObject {
     ///   - lng: The longitude you want to calcuate
     ///   - timeType: dayTimeType.sunRise or dayTimeType.sunSet
     /// - Returns: Date(optional)
-    public class func getSunRiseSetTime(date: Date, lat: Double, lng: Double, timeType: dayTimeType) -> Date?{
+    private class func getSunRiseSunSetTime(date: Date, lat: Double, lng: Double, timeType: dayTimeType, timeZone: Int) -> Date?{
         
         assert(((lat > -90 && lat < 90) || (lng < 180 && lng > -180)), "Input latitude or longtitude not correct")
         
@@ -65,16 +79,9 @@ class DayTimeCalculator: NSObject {
                         
             ut0 = utStart
         }
-        
-        var zone: Int = 0
-        if lng.truncatingRemainder(dividingBy: 15) >= 7.5 {
-            zone = Int(lng / 15) + 1
-        }else{
-            zone = Int(lng / 15)
-        }
                 
-        let hour = Int(utStart / 15 + Double(zone))
-        let min = Int(60 * ((utStart) / 15.0 + Double(zone)).truncatingRemainder(dividingBy: 1))
+        let hour = Int(utStart / 15 + Double(timeZone))
+        let min = Int(60 * ((utStart) / 15.0 + Double(timeZone)).truncatingRemainder(dividingBy: 1))
         
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd HH:mm"
