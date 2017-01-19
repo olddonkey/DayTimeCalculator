@@ -73,7 +73,7 @@ class DayTimeCalculator: NSObject {
             zone = Int(lng / 15)
         }
                 
-        let hour = Int(utStart / 15) + zone
+        let hour = Int(utStart / 15 + Double(zone))
         let min = Int(60 * ((utStart) / 15.0 + Double(zone)).truncatingRemainder(dividingBy: 1))
         
         let dateFormatter = DateFormatter()
