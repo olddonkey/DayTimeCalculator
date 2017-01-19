@@ -1,8 +1,7 @@
 # DayTimeCalculator
 </p>
-> There are some known with algorithm, I will fix it today
 
-A small library to calculate sun rise and sun set time. Provide latitude and longitude, return an UTC Date that's day's sun rise or sun set time
+A small library to calculate sun rise and sun set time. Provide latitude and longitude, return an UTC Date that's day's sun rise or sun set time. The time zone used during calculation is system time zone. This can avoid a lot of problems.
 
 ## Features
 
