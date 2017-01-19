@@ -58,9 +58,9 @@ class DayTimeCalculator: NSObject {
             let e: Double = radiansToAngle(radians: (acos(h - tan(lat) * tan(sigam))))
             
             if timeType == .sunRise {
-                utStart = ut0 - gha - lng + e
-            }else if timeType == .sunSet {
                 utStart = ut0 - gha - lng - e
+            }else if timeType == .sunSet {
+                utStart = ut0 - gha - lng + e
             }
                         
             ut0 = utStart
@@ -72,9 +72,9 @@ class DayTimeCalculator: NSObject {
         }else{
             zone = Int(lng / 15)
         }
-        
+                
         let hour = Int(utStart / 15) + zone
-        let min = lround(60 * ((utStart) / 15.0 + Double(zone)).truncatingRemainder(dividingBy: 1))
+        let min = Int(60 * ((utStart) / 15.0 + Double(zone)).truncatingRemainder(dividingBy: 1))
         
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd HH:mm"
